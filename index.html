@@ -1,38 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Two-Column Fixed Layout</title>
- <meta charset="utf-8" />   
-   <link href="styles.css" rel="stylesheet" />
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Dan Huber
+		Date: 11/13/2023
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
 
-<!--
-Provided 2 column fixed layout in CMIS 410 - for educational purposes only
-Your Name: 
-Today's Date: 
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Dan Huber Photography</title>
+   <link href="css/styles.css" rel="stylesheet" />
 
--->
+	<style>
+		body {
+		background-image: url('images/blueback.jpg');
+		}
+	</style>
+
+
 </head>
+
 <body>
-<div id="container">
-	<div id="header"> 
-		<img src="samplelogo.png" alt="sample logo" />
-	</div> <!-- header ends here -->
-	<div id="navbar"> 
-		<p>This is the Navbar</p> 
-	</div> <!-- navbar ends here -->
-	<div id="sidebar"> 
-		<p>This is the Sidebar column</p> 
-	</div> <!-- sidebar column ends here -->
-	<div id="main"> 
-		<p>This is the Main column</p> 
-	</div> <!-- main column ends here -->
-	<div id="footer"> 
-		<p>This is the Footer</p> 
-	</div> <!-- footer ends here -->
-
-</div> <!-- container ends here -->
 
 
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/dhphoto.png" alt="Dan Huber Photography logo"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "services.html">Services</a></li>
+	  <li><a href = "gallery.html">Gallery</a></li>
+	  <li><a href = "contact.html">Contact Us</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main"> 
+
+<h3>About</h3>
+	<p>Dan Huber Photography is a local photographer from Louisville, Nebraska. He is a talented individual who focuses on families, high school seniors, and weddings. He also assists businesses by taking employee headshots, inventory photos, building photos, and more. In his spare time, he enjoys taking photos of nature and traveling.</p>
+
+<h2>Gallery</h2>
+	<p>
+	<img src="images/family.jpg" alt="family" class="center">
+	<img src="images/senior.jpg" alt="senior" class="center">
+	<img src="images/wedding.jpg" alt="wedding" class="center">
+	</p>
+
+<h3>Mission Statement</h3>
+	<p>Creating lifelong memories one photo at a time.</p>
+
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>Hours</h3>
+
+	<p>Monday: closed</p>
+	<p>Tuesday: closed</p>
+	<p>Wednesday: 9 a.m. - 5 p.m.</p>
+	<p>Thursday: 9 a.m. - 5 p.m.</p>
+	<p>Friday: closed</p>
+	<p>Saturday: closed</p>
+	<p>Sunday: 12 p.m - 5 p.m.</p>
+	<p>Available by appointment too.</p>
+
+<figure>
+  <img src = "images/camera.jpg" alt = "Camera"  />
+
+  <figcaption>
+    Looking forward to serving you!<br />
+  </figcaption> 
+</figure>
+
+</aside>   
+
+<footer> 
+
+	<p>Dan Huber Photography<br />
+	123 Main &bull; Louisville, NE 68037<br />
+	<a href = "mailto:huberphotos@gmail.com">Email Us</a> | <a href = "tel:+5558675309">555-867-5309</a> | <a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "https://instagram.com" target="_blank">Instagram</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
 
 </body>
 </html>
